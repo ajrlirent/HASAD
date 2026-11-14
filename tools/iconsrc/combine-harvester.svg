@@ -1,0 +1,29 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#FFFFFF">
+  <!-- unloading auger -->
+  <path d="M285 155 L430 120 L438 138 L292 173 Z"/>
+  <rect x="420" y="128" width="34" height="26" rx="4"/>
+  <!-- grain tank -->
+  <path d="M205 185 L300 185 L292 150 L215 150 Z"/>
+  <!-- cab -->
+  <path d="M330 200 L330 135 L382 118 L410 118 L410 200 Z"/>
+  <rect x="344" y="146" width="50" height="38" rx="4" fill="#01341D"/>
+  <!-- body -->
+  <path d="M140 200 L410 200 L410 310 L140 310 Z"/>
+  <!-- feeder house -->
+  <path d="M60 305 L150 250 L150 330 L80 345 Z"/>
+  <!-- header bar -->
+  <rect x="16" y="318" width="150" height="24" rx="6"/>
+  <path d="M16 342 L40 370 L52 342 Z M54 342 L78 370 L90 342 Z M92 342 L116 370 L128 342 Z M130 342 L154 370 L166 342 Z"/>
+  <!-- reel -->
+  <circle cx="92" cy="300" r="26" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <path d="M92 274 L92 326 M66 300 L118 300 M73 281 L111 319 M111 281 L73 319" stroke="#FFFFFF" stroke-width="6"/>
+  <!-- exhaust -->
+  <rect x="352" y="104" width="16" height="36" rx="4"/>
+  <!-- wheels -->
+  <circle cx="362" cy="356" r="66"/>
+  <circle cx="362" cy="356" r="26" fill="#01341D"/>
+  <circle cx="200" cy="382" r="40"/>
+  <circle cx="200" cy="382" r="15" fill="#01341D"/>
+  <!-- chassis -->
+  <rect x="150" y="306" width="240" height="20" rx="6"/>
+</svg>

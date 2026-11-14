@@ -1,0 +1,61 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.err
+tunnel_*.log
+tunnel_*.err
+devserver.log
+admin.log
+build_apk.log
+
+# Temp / scratch
+categories_machines_list.txt
+tools/imginfo.py
+tools/mk_white_mark.py
+tools/fix_subcat_photos.py
+tools/check_machine_images*.py
+tools/final_check.py
+tools/list_names*.py
+tools/restart_web.ps1
+tools/update_seeders_newimages.py
+
+# Flutter app
+hasad-app/.dart_tool/
+hasad-app/build/
+hasad-app/.flutter-plugins
+hasad-app/.flutter-plugins-dependencies
+hasad-app/android/.gradle/
+hasad-app/ios/Pods/
+hasad-app/.idea/
+
+# Laravel backend
+hasad-backend/vendor/
+hasad-backend/node_modules/
+hasad-backend/storage/logs/
+hasad-backend/storage/framework/cache/
+hasad-backend/storage/framework/sessions/
+hasad-backend/storage/framework/views/
+hasad-backend/bootstrap/cache/
+hasad-backend/.env
+hasad-backend/public/storage
+
+# Next.js admin
+hasad-admin/node_modules/
+hasad-admin/.next/
+hasad-admin/out/
+
+# Website
+Hasad website/node_modules/
+Hasad website/dist/
+Hasad website/.vite/
+
+# Large APK (hosted via GitHub Releases instead)
+Hasad website/public/hasad.apk
+hasad-app/build/
+
+# Images assets (large) - keep source images? keep them
+# Misc
+*.apk
