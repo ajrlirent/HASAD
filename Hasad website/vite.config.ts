@@ -35,7 +35,9 @@ const apkMimePlugin = {
 };
 
 export default defineConfig(() => {
+  const base = process.env.GITHUB_PAGES === "true" ? "/HASAD/" : "/";
   return {
+    base,
     plugins: [react(), tailwindcss(), apkMimePlugin],
     optimizeDeps: {
       include: [

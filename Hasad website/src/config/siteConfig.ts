@@ -34,8 +34,8 @@ export const SITE_CONFIG: SiteConfig = {
   tagline: "Votre terre. Vos machines. Votre récolte.",
   country: "Algérie",
   downloads: {
-    // Serve the release APK from the site's public folder (public/hasad.apk).
-    googlePlayUrl: "/hasad.apk",
+    // Hosted on GitHub Releases (keeps the repo lean; the APK is ~70MB).
+    googlePlayUrl: "https://github.com/ajrlirent/HASAD/releases/download/v1.0.0/hasad.apk",
     appStoreUrl: "",
     comingSoonLabel: "Bientôt disponible",
   },
