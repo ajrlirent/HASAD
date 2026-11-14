@@ -46,6 +46,11 @@ class RootErrorBoundary extends Component<
 }
 
 const rootElement = document.getElementById("root");
+if ("serviceWorker" in navigator && import.meta.env.PROD) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch(() => {});
+  });
+}
 if (rootElement) {
   createRoot(rootElement).render(
     <RootErrorBoundary>
