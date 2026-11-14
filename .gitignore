@@ -40,7 +40,12 @@ hasad-backend/storage/framework/sessions/
 hasad-backend/storage/framework/views/
 hasad-backend/bootstrap/cache/
 hasad-backend/.env
-hasad-backend/public/storage
+# keep seeded machine images in the repo for Render
+!hasad-backend/storage/
+!hasad-backend/storage/app/
+!hasad-backend/storage/app/public/
+!hasad-backend/storage/app/public/hasad_machines/
+!hasad-backend/storage/app/public/hasad_machines/**
 
 # Next.js admin
 hasad-admin/node_modules/
