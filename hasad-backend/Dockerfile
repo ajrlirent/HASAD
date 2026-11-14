@@ -30,5 +30,5 @@ RUN mkdir -p /app/database && touch /app/database/database.sqlite
 RUN php artisan migrate --force
 RUN php artisan db:seed --force
 
-EXPOSE 8000
-CMD ["php", "-S", "0.0.0.0:8000", "-t", "public"]
+EXPOSE 10000
+CMD sh -c "php -S 0.0.0.0:${PORT:-8000} -t public"
